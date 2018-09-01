@@ -7,7 +7,7 @@ function takeANumber(line,name){
 function nowServing(katzDeliLine){
   let i=0
   while (i<katzDeliLine.length){
-  console.log( `Currently serving ${katzDeliLine[0]}.`);
+  return  `Currently serving ${katzDeliLine[0]}.`;
   katzDeliLine.shift();
 }
 while (katzDeliLine.length===0){
