@@ -23,6 +23,7 @@ function nowServing(katzDeliLine){
 //accepts the current line, returns current line as string
 function currentLine(line){
   //create new array to hold numbered line, properly formatted for output ex: '1. Ada, 2. Grace'
+  //number is i+1 to account for zero index
   let numberedLine = [];
   for (var i=0; i<line.length; i++){
     numberedLine.push(`${i+1}. ${line[i]}`)
