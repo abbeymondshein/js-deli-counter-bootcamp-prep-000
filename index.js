@@ -4,6 +4,8 @@ function takeANumber(line,name){
   return `Welcome, ${name}. You are number ${lineNumber} in line.`
 }
 
+//accepts current line of people, returns first person in line, removes that person from line
+//if nobody is in line, state as such
 function nowServing(katzDeliLine){
   let i=0
   while (i<katzDeliLine.length){
