@@ -22,7 +22,11 @@ function nowServing(katzDeliLine){
 
 //accepts the current line, returns current line as string
 function currentLine(line){
-  
+  //create new array to hold numbered line, properly formatted for output ex: '1. Ada, 2. Grace'
+  let numberedLine = [];
+  for (var i=0; i<line.length; i++){
+    numberedLine.push(``)
+  }
   //indicates current line status: empty or num
   if (line.length===0) {
     return "The line is currently empty."
