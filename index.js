@@ -19,3 +19,11 @@ function nowServing(katzDeliLine){
 		return  `Currently serving ${katzDeliLine.shift()}.`;
 	}
 }
+
+//accepts the current line, returns current line as string
+function currentLine(line){
+  if (line.length===0) {
+    return "The line is currently empty."
+  }
+  else {
+}
