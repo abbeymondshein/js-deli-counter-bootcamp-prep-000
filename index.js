@@ -33,7 +33,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else {
-    return `The line is currently: ${numberedLine} `
+    return "The line is currently: "+ numberedLine 
     //
   }
 }
