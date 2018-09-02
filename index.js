@@ -26,14 +26,14 @@ function currentLine(line){
   //number is i+1 to account for zero index
   let numberedLine = [];
   for (var i=0; i<line.length; i++){
-    numberedLine.push(` ${i+1}. ${line[i]}`);
+    numberedLine.push(`${i+1}. ${line[i]}`);
   }
   //indicates current line status: empty or num
   if (line.length===0) {
     return "The line is currently empty."
   }
   else {
-    return `The line is currently: ${numberedLine}.`
+    return `The line is currently: ${numberedLine}. `
     //
   }
 }
